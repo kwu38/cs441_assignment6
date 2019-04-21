@@ -18,6 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
-
-
+for (int i = 0; i < 100; i ++){
+    
+}
+while();
 @end
