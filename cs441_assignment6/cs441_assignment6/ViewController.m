@@ -13,7 +13,9 @@
 @end
 
 @implementation ViewController
-
+@synthesize button, button2;
+@synthesize label;
+@synthesize image;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
