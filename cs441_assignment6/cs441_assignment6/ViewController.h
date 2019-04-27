@@ -11,8 +11,9 @@
 @interface ViewController : UIViewController
 @property (nonatomic, strong) IBOutlet UIButton *button, *button2;
 @property (nonatomic, strong) IBOutlet UILabel *label;
-
+@property (nonatomic, strong) IBOutlet UITextField *fn, *ln, *email, *passcode;
 @property (nonatomic, strong) IBOutlet UIImageView *image;
+@property (nonatomic, strong) IBOutlet UILabel *user_info, *user_food;
 
 @end
 

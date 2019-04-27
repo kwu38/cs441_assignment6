@@ -8,18 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		233E8F3B2272694D00981C30 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 233E8F3A2272694D00981C30 /* libsqlite3.tbd */; };
-		233E8F3D227269B300981C30 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 233E8F3C227269B300981C30 /* DBManager.m */; };
 		23AD4E49226C0BCF003F44CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD4E48226C0BCF003F44CF /* AppDelegate.m */; };
 		23AD4E4C226C0BCF003F44CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD4E4B226C0BCF003F44CF /* ViewController.m */; };
 		23AD4E4F226C0BCF003F44CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AD4E4D226C0BCF003F44CF /* Main.storyboard */; };
 		23AD4E51226C0BD1003F44CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23AD4E50226C0BD1003F44CF /* Assets.xcassets */; };
 		23AD4E54226C0BD1003F44CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AD4E52226C0BD1003F44CF /* LaunchScreen.storyboard */; };
 		23AD4E57226C0BD1003F44CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD4E56226C0BD1003F44CF /* main.m */; };
+		23C186EA22739FDF0001FF0A /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C186E922739FDF0001FF0A /* DBManager.m */; };
+		23C186EC2273A39C0001FF0A /* food_pyramid.png in Resources */ = {isa = PBXBuildFile; fileRef = 23C186EB2273A39C0001FF0A /* food_pyramid.png */; };
+		23C186EE2273A9B90001FF0A /* food.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 23C186ED2273A9B90001FF0A /* food.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		233E8F3A2272694D00981C30 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		233E8F3C227269B300981C30 /* DBManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
 		23AD4E44226C0BCF003F44CF /* cs441_assignment6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cs441_assignment6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23AD4E47226C0BCF003F44CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		23AD4E48226C0BCF003F44CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -30,6 +31,10 @@
 		23AD4E53226C0BD1003F44CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23AD4E55226C0BD1003F44CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23AD4E56226C0BD1003F44CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23C186E922739FDF0001FF0A /* DBManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		23C186EB2273A39C0001FF0A /* food_pyramid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = food_pyramid.png; path = ../../../../Downloads/food_pyramid.png; sourceTree = "<group>"; };
+		23C186ED2273A9B90001FF0A /* food.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = food.jpeg; path = ../../../../Downloads/food.jpeg; sourceTree = "<group>"; };
+		23C186EF2273ACA60001FF0A /* DBManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +77,9 @@
 		23AD4E46226C0BCF003F44CF /* cs441_assignment6 */ = {
 			isa = PBXGroup;
 			children = (
+				23C186EB2273A39C0001FF0A /* food_pyramid.png */,
+				23C186ED2273A9B90001FF0A /* food.jpeg */,
 				23AD4E47226C0BCF003F44CF /* AppDelegate.h */,
-				233E8F3C227269B300981C30 /* DBManager.m */,
 				23AD4E48226C0BCF003F44CF /* AppDelegate.m */,
 				23AD4E4A226C0BCF003F44CF /* ViewController.h */,
 				23AD4E4B226C0BCF003F44CF /* ViewController.m */,
@@ -82,6 +88,8 @@
 				23AD4E52226C0BD1003F44CF /* LaunchScreen.storyboard */,
 				23AD4E55226C0BD1003F44CF /* Info.plist */,
 				23AD4E56226C0BD1003F44CF /* main.m */,
+				23C186E922739FDF0001FF0A /* DBManager.m */,
+				23C186EF2273ACA60001FF0A /* DBManager.h */,
 			);
 			path = cs441_assignment6;
 			sourceTree = "<group>";
@@ -143,6 +151,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C186EE2273A9B90001FF0A /* food.jpeg in Resources */,
+				23C186EC2273A39C0001FF0A /* food_pyramid.png in Resources */,
 				23AD4E54226C0BD1003F44CF /* LaunchScreen.storyboard in Resources */,
 				23AD4E51226C0BD1003F44CF /* Assets.xcassets in Resources */,
 				23AD4E4F226C0BCF003F44CF /* Main.storyboard in Resources */,
@@ -159,7 +169,7 @@
 				23AD4E4C226C0BCF003F44CF /* ViewController.m in Sources */,
 				23AD4E57226C0BD1003F44CF /* main.m in Sources */,
 				23AD4E49226C0BCF003F44CF /* AppDelegate.m in Sources */,
-				233E8F3D227269B300981C30 /* DBManager.m in Sources */,
+				23C186EA22739FDF0001FF0A /* DBManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
